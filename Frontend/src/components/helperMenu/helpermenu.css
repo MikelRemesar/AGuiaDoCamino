@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.buttonform {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: inherit;
+}
+.uploadimage_button_send {
+    border: none;
+    padding: 10px 30px;
+    height: 40px;
+    background-color: black;
+    color: #f9f9f9;
+    position: absolute;
+    bottom: 5%;
+}
+.uploadimage_button_send:hover {
+    border: none;
+    padding: 10px 30px;
+    background-color: #f9f9f9;
+    color: black;
+    text-decoration: underline black 1px;
+    border: 1px solid black;
+}
+
+.btn-group-options {
+    padding-left: 850px;
+}
+
+.open-modal {
+    font-weight: bold;
+    background: black;
+    color: white;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+.open-modal svg {
+    width: 35px;
+    height: 35px;
+}
+/* MODAL
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--black);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    /* transition: all 0.35s ease-in;
+    z-index: 0; */
+}
+
+.modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: linear 0.3s;
+    z-index: 1;
+}
+.modal.is-visible > div {
+    width: 40%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+    z-index: 1;
+}
+
+.modal-dialog {
+    position: relative;
+    max-width: 800px;
+    max-height: 80vh;
+    border-radius: 5px;
+    background: #f9f9f9;
+    overflow: auto;
+    cursor: default;
+    color: black;
+    z-index: 1;
+}
+
+.modal-dialog > * {
+    padding: 1rem;
+    color: black;
+}
+
+.modal-header {
+    background: lightgray;
+    font-size: 1.5rem;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-header .close-modal {
+    font-size: 1.5rem;
+}
+
+.modal p + p {
+    margin-top: 1rem;
+}
+.close-modal {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+.tittle-edit-profile {
+    text-align: center;
+}

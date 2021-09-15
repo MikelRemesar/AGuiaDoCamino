@@ -1,0 +1,157 @@
+/* Aqui empieza los EDITPROFILE */
+
+.editprofile_form {
+    color: black;
+    text-align: left;
+}
+.editprofile_form > p {
+    margin: 10px;
+}
+.editprofile_form_label {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    vertical-align: center;
+}
+.editprofile_form_label a {
+    text-decoration: none;
+}
+.editprofile_form_info {
+    color: black;
+    width: 200px;
+    font-size: 34px;
+    vertical-align: center;
+    text-align: center;
+}
+.editprofil_closebutton {
+    width: 50px;
+    height: 50px;
+    border: none;
+    color: black;
+    vertical-align: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+    right: 0%;
+}
+.editprofile_closebutton:hover {
+    font-size: 40px;
+}
+
+.editprofile_form_editbutton {
+    border: none;
+    padding: 10px 30px;
+    height: 40px;
+    background-color: black;
+    color: #f9f9f9;
+}
+.editprofile_form_editbutton:hover {
+    border: none;
+    padding: 10px 30px;
+    background-color: #f9f9f9;
+    color: black;
+    text-decoration: underline black 1px;
+    border: 1px solid black;
+}
+.editprofile_form_showinfo {
+    color: black;
+    background-color: grey;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.uploadimage_form_title {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/*SHITCODE MODALS*/
+
+.modalmask {
+    position: fixed;
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalbox {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: #f9f9f9;
+    margin: auto;
+    padding: auto;
+    display: block;
+    color: black;
+    border-radius: 3px;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
+.movedown {
+    margin: 0 auto;
+}
+.modalmask:target .movedown {
+    margin: 10% auto;
+}
+.close {
+    background: #606061;
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.close:hover {
+    background: #faac58;
+    color: #222;
+}
+.editprofile_form {
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    vertical-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.editprofile_form input[type='text' i] {
+    color: black;
+}
+.editprofile_form label {
+    color: black;
+}
+.trendings-profile-photo {
+    margin-top: 0;
+}
+.editprofile_form_password {
+    margin-top: 0px;
+}
+.message-password {
+    color: black;
+    font-size: 16px;
+}

@@ -1,0 +1,26 @@
+.like-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.like {
+    border: none;
+    background: none;
+    color: black;
+    transform: scale(2.3);
+    cursor: pointer;
+}
+.like-yes {
+    border: none;
+    background: none;
+    color: black;
+    transform: scale(2.3);
+    cursor: pointer;
+}
+.like-yes svg {
+    color: red;
+}
+.likes-number {
+    color: black;
+}

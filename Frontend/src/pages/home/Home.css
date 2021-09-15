@@ -1,0 +1,120 @@
+.main_page_land {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main_page_screens {
+    grid-column: 1/2;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+.main_page_access {
+    background-color: black;
+    grid-column: 2/3;
+
+    color: white;
+    text-align: left;
+    justify-content: center;
+    vertical-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.title_1 {
+    vertical-align: center;
+    padding-left: 0;
+    text-align: center;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+    from {
+        width: 0;
+        color: black;
+    }
+    to {
+        width: 100%;
+        color: white;
+    }
+}
+
+.title_2 {
+    color: black;
+    padding-left: 0;
+    text-align: center;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing2 15s steps(40, end), blink-caret 3.5s step-end;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
+
+@keyframes typing2 {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 100%;
+        color: white;
+    }
+    100% {
+        width: 100%;
+        color: white;
+    }
+}
+.main_page_screens {
+    animation-name: anim;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    height: 100vh;
+}
+@keyframes anim {
+    0%  { background-image: url(../../assets/camino7.jpg);
+        background-size:contain;
+    }
+    25% {
+        background-image: url(../../assets/camino6.jpg);
+        background-size:contain;
+    }
+    50% {
+        background-image: url(../../assets/camino5.jpg);
+        background-size:contain;
+    }
+    75% {
+        background-image: url(../../assets/camino12.jpg);
+        background-size:contain;
+    }
+    100% {
+        background-image: url(../../assets/camino7.jpg);
+        background-size:contain;
+    }
+}
+.main_page_access_buttons {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button_access {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f9f9f9;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid white;
+    width: 200px;
+    text-align: center;
+}
+.button_access:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+.omit_access_button {
+    margin-top: 40px;
+    text-align: center;
+}

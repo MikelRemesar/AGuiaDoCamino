@@ -1,0 +1,50 @@
+.searchpage form {
+    text-align: center;
+    vertical-align: center;
+    margin-top: 150px;
+}
+.searchpage form input {
+    max-width: 400px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding: 8px;
+}
+.searchpage form button {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+}
+.searchpage {
+    width: 100%;
+}
+/*DIV BUSQUEDAS*/
+.showsearch-container {
+    display: grid;
+    max-height: 0vh;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    grid-template-rows: masonry;
+    margin: 50px 270px 0px 270px;
+}
+.Result img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    max-height: 550px;
+
+    width: 100%;
+    background-color: #eee;
+}
+.searchinfotext {
+    font-size: auto;
+    text-align: left;
+    margin-left: 100px;
+    min-width: 100px;
+}
+@media (min-width: 600px) {
+    :root {
+        --results-columns: 3;
+    }
+}

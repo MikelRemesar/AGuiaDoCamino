@@ -1,0 +1,79 @@
+.carrusel-fotos-perfil {
+    width: 120vh;
+    height: 240px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: white;
+    border: 2px solid grey;
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    border-radius: 4px;
+}
+
+.pruebas > p {
+    position: absolute;
+
+    transform: translateX(50%) translateY(850%);
+}
+
+p {
+    text-align: center;
+}
+
+.fotoperfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+}
+.fotoperfil-container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.grid-last-photos-container {
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+}
+
+.grid-last-photos-container .photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: row;
+}
+.photos {
+    text-align: center;
+}
+.fotoperfil-container {
+    display: flex;
+}
+
+.trendings-profile-photos {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    margin: 15px;
+    transform: scale(1);
+    transition: 00.5s;
+}
+.links-profiles {
+    text-decoration: none;
+    color: black;
+}
+.links-profiles:hover {
+    text-decoration: none;
+}
+.trendings-profile-photos:hover {
+    transition: 00.5s;
+    transform: scale(1.1);
+}

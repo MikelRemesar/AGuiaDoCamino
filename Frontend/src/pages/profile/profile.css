@@ -1,0 +1,154 @@
+.photo-profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 270px;
+    margin-top: 50px;
+    border: 5px solid grey;
+    z-index: -2;
+    background-color: grey;
+}
+
+.listofimages-profile img {
+    width: 300px;
+    height: 170px;
+    z-index: -2;
+}
+.listofimages-profile {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 16px;
+    margin-left: 260px;
+    margin-right: 240px;
+    margin-top: 80px;
+}
+.description-profile {
+    padding-top: 150px;
+    font-size: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.button-profile-photo {
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 190px;
+    left: -45px;
+    border-radius: 50%;
+    background-color: grey;
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    z-index: 0;
+}
+.button-profile-photo svg {
+    width: 30px;
+    height: 30px;
+    color: whitesmoke;
+}
+
+.tittle-modal {
+    padding-top: 25px;
+}
+.button-changue-profile-photo {
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    background: grey;
+    color: white;
+}
+.button-changue-profile-photo:hover {
+    background: black;
+    color: white;
+}
+
+.button-close-photo {
+    border: none;
+    cursor: pointer;
+    margin: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.listofprofilephotos img {
+    width: 150px;
+    height: 100px;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button-close-photo svg {
+    width: 40px;
+    height: 40px;
+    color: grey;
+}
+.button-close-photo svg:hover {
+    color: black;
+}
+
+.user-info-container {
+    display: flex;
+}
+.nickname {
+    position: relative;
+    top: 120px;
+    text-align: left;
+}
+.email {
+    position: relative;
+    top: 150px;
+    text-align: left;
+    margin-top: 15px;
+    left: 20px;
+}
+
+.user-avatar {
+    position: relative;
+}
+
+.user-avatar form {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.user-avatar form svg {
+    width: 45px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: grey;
+}
+
+.preloader {
+    display: block;
+    margin: auto;
+    margin-top: 370px;
+
+    width: 370px;
+    height: 370px;
+    border: 10px solid #eee;
+    border-top: 10px solid blue;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,106 @@
+/*Form del div que contiene todos los inputs y boton*/
+.uploadimage_form {
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 30px;
+    vertical-align: top;
+    width: 100%;
+}
+.divcentralcrop {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.canvas {
+    position: absolute;
+    right: 11000%;
+}
+/*titulos inputs*/
+.uploadimage_description {
+    color: black;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+}
+.uploadimage_form_title {
+    color: black;
+}
+/*Label del error*/
+.uploadimage_error_label {
+    color: rgba(122, 5, 5, 0.89);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Boton con accion de Upload*/
+.uploadimage_button_send {
+    border: none;
+    padding: 10px 30px;
+    width: 20%;
+    background-color: black;
+    color: #f9f9f9;
+    position: absolute;
+    bottom: 5%;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+.uploadimage_button_send:hover {
+    border: none;
+    padding: 10px 30px;
+    background-color: rgb(80, 78, 78);
+    color: white;
+    text-decoration: none;
+}
+
+/*Main container*/
+.uploadimage_div {
+    display: inline-flex;
+    border: 3px solid #000000;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    border: 10px BLACK solid;
+    box-shadow: grey 3px 3px;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+}
+.uploadimage_div:hover {
+    box-shadow: lightblue;
+}
+.uploadimage_button_selectfile {
+    margin-top: 15px;
+    color: black;
+}
+.uploadimage_form input[type='text' i] {
+    color: black;
+    margin-left: 50px;
+    width: 100%;
+    padding: 10px;
+}
+
+/*canvas*/
+.ReactCrop {
+    max-width: 60%;
+}
+.MdAddAPhoto > *:hover {
+    animation: cameramotion 100ms steps(40, end), blink-caret 0.075s step-end;
+    animation-iteration-count: 1;
+}
+@keyframes cameramotion {
+    0% {
+        color: BLACK;
+    }
+    100% {
+        color: #f9f9f9;
+    }
+}
+.btn-subir {
+    display: flex;
+    justify-content: center;
+}
