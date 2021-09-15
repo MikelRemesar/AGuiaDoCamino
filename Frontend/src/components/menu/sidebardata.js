@@ -34,8 +34,8 @@ export const SidebarData = [
     },
 
     {
-        title: 'Contacto',
-        path: '/Información General',
+        title: 'Info',
+        path: '/contacto',
         icon: <HiOutlineMail />,
         cName: 'nav-text',
     },
